@@ -40,6 +40,7 @@ https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/
 
 https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 
+## Zelo72 took this down. I am now hosting this list on my git just to have the links added.
 https://raw.githubusercontent.com/Zelo72/rpi/master/pihole/blocklists/kees1958.txt
 
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
