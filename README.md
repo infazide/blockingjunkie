@@ -69,6 +69,8 @@ https://urlhaus.abuse.ch/downloads/hostfile/
 
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
 
+**** Following added Feb 12, 2022
+
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/abuse-ags.txt
 
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ads-ags.txt
