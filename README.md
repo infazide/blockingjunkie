@@ -1,6 +1,6 @@
 *** Updated Feb 12, 2022
 
-*** blockjunkie.txt contains 1,191,145 domains
+*** blockjunkie.txt contains # domains
 
 blockjunkie is combination list made from the following blocklists. All duplicates removed and domains sorted. Updated regularly.
 
@@ -69,7 +69,7 @@ https://urlhaus.abuse.ch/downloads/hostfile/
 
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
 
-**** Following added Feb 12, 2022
+**** In testing Feb 12, 2022
 
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/abuse-ags.txt
 
