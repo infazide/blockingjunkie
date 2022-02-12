@@ -1,3 +1,4 @@
+*** Updated Feb 12, 2022
 blockjunkie is combination list made from the following blocklists. Updated regularly.
 
 
@@ -64,3 +65,29 @@ https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
 https://urlhaus.abuse.ch/downloads/hostfile/
 
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/abuse-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ads-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/basic-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/crypto-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/drugs-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/fraud-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/gambling-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/malware-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/phishing-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/piracy-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ransomware-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/scam-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/tracking-ags.txt
