@@ -1,5 +1,8 @@
 *** Updated Feb 12, 2022
-blockjunkie is combination list made from the following blocklists. Updated regularly.
+
+*** blockjunkie.txt contains 1,191,145 domains
+
+blockjunkie is combination list made from the following blocklists. All duplicates removed and domains sorted. Updated regularly.
 
 
 Current combination site list.
