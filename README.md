@@ -1,12 +1,11 @@
-*** Updated Feb 12, 2022
+*** Updated Feb 14, 2022
 
-*** blockjunkie.txt contains # domains
+*** blockjunkie.txt currently contains 1134700 domains
 
 blockjunkie is combination list made from the following blocklists. All duplicates removed and domains sorted. Updated regularly.
 
 
-Current combination site list.
-############################
+********* Current combination site list.
 
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 
@@ -69,11 +68,23 @@ https://urlhaus.abuse.ch/downloads/hostfile/
 
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
 
-**** In testing Feb 12, 2022
+******* Completed Testing on the following lists Feb 14, 2022
 
-https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/abuse-ags.txt
+https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/malware-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/phishing-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ransomware-ags.txt
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/tracking-ags.txt
 
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ads-ags.txt
+
+**** In testing Feb 14, 2022
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/abuse-ags.txt
 
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/basic-ags.txt
 
@@ -85,14 +96,6 @@ https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/fraud-ag
 
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/gambling-ags.txt
 
-https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/malware-ags.txt
-
-https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/phishing-ags.txt
-
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/piracy-ags.txt
 
-https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ransomware-ags.txt
-
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/scam-ags.txt
-
-https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/tracking-ags.txt
