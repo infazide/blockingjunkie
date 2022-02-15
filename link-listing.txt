@@ -34,3 +34,12 @@ https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ransomwa
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/tracking-ags.txt
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ads-ags.txt
 https://raw.githubusercontent.com/blockingjunkie/blockingjunkie/main/Block%20Junkie%20Lists/blockjunkies-list.txt
+https://raw.githubusercontent.com/blockingjunkie/blockingjunkie/main/deadlists/zelo72kees1958.txt
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/abuse-ags.txt
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/basic-ags.txt
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/crypto-ags.txt
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/drugs-ags.txt
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/fraud-ags.txt
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/gambling-ags.txt
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/piracy-ags.txt
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/scam-ags.txt
