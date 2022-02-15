@@ -33,3 +33,4 @@ https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/phishing
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ransomware-ags.txt
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/tracking-ags.txt
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ads-ags.txt
+https://raw.githubusercontent.com/blockingjunkie/blockingjunkie/main/Block%20Junkie's%20Lists/blockjunkies-list.txt
