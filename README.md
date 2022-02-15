@@ -82,6 +82,11 @@ https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/tracking
 
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ads-ags.txt
 
+********* Added our list Feb 15, 2022
+
+https://raw.githubusercontent.com/blockingjunkie/blockingjunkie/main/Block%20Junkie's%20Lists/blockjunkies-list.txt
+
+
 **** In testing Feb 14, 2022
 
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/abuse-ags.txt
