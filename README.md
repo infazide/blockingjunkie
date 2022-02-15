@@ -1,6 +1,6 @@
 *** Updated Feb 15, 2022
 
-*** blockjunkie.txt currently contains over 1.2 Million domains
+*** blockjunkie.txt currently contains over 1.3 Million domains
 
 blockjunkie is combination list made from the following blocklists. All duplicates removed and domains sorted. Updated regularly.
 
