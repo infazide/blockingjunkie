@@ -107,3 +107,4 @@ https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/scam-ags
 ********* Added Feb 18, 2022
 
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/tiktok-ags.txt
+https://abp.oisd.nl
