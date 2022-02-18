@@ -1,4 +1,4 @@
-*** Updated Feb 15, 2022
+*** Updated Feb 18, 2022
 
 *** blockjunkie.txt currently contains over 1.3 Million domains
 
@@ -70,7 +70,7 @@ https://urlhaus.abuse.ch/downloads/hostfile/
 
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
 
-******* Completed Testing on the following lists Feb 14, 2022
+******* Added Feb 14, 2022
 
 https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt
 
@@ -88,9 +88,6 @@ https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/ads-ags.
 
 https://raw.githubusercontent.com/blockingjunkie/blockingjunkie/main/Block%20Junkie%20Lists/blockjunkies-list.txt
 
-
-**** In testing Feb 15, 2022
-
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/abuse-ags.txt
 
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/basic-ags.txt
@@ -106,3 +103,7 @@ https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/gambling
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/piracy-ags.txt
 
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/scam-ags.txt
+
+********* Added Feb 18, 2022
+
+https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/tiktok-ags.txt
