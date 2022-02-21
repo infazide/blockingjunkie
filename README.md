@@ -44,7 +44,7 @@ https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/
 https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 
 ## Zelo72 took this down. I am now hosting this list on my git.
-##https://raw.githubusercontent.com/Zelo72/rpi/master/pihole/blocklists/kees1958.txt
+https://raw.githubusercontent.com/Zelo72/rpi/master/pihole/blocklists/kees1958.txt
 
 https://raw.githubusercontent.com/blockingjunkie/blockingjunkie/main/deadlists/zelo72kees1958.txt
 ##
@@ -107,4 +107,5 @@ https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/scam-ags
 ********* Added Feb 18, 2022
 
 https://raw.githubusercontent.com/blocklistproject/Lists/master/adguard/tiktok-ags.txt
+
 https://abp.oisd.nl
