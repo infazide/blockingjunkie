@@ -1,4 +1,4 @@
-*** Updated Mar 19, 2022
+*** Updated April 13, 2022
 
 *** blockjunkie.txt currently contains over 1.6 Million domains
 
