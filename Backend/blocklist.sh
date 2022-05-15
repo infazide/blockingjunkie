@@ -10,6 +10,7 @@ IFS=$'\n\t'
 (
   # Suspicious Lists
   curl -sSf "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts_without_controversies.txt" ;
+  curl -sSf "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt" ;
   curl -sSf "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts" ;
   curl -sSf "https://v.firebog.net/hosts/static/w3kbl.txt" ;
   curl -sSf "https://raw.githubusercontent.com/blocklistproject/Lists/master/drugs.txt" ;
@@ -27,6 +28,8 @@ IFS=$'\n\t'
   curl -sSf "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts" ;
   curl -sSf "https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt" ;
   curl -sSf "https://raw.githubusercontent.com/blocklistproject/Lists/master/basic.txt" ;
+  curl -sSf "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" ;
+  curl -sSf "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt" ;
 
   # Tracking & Telemetry Lists
   curl -sSf "https://v.firebog.net/hosts/Easyprivacy.txt" ;
@@ -61,8 +64,12 @@ IFS=$'\n\t'
   curl -sSf "https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt" ;
   curl -sSf "https://raw.githubusercontent.com/blocklistproject/Lists/master/fraud.txt" ;
 
+  #Crypto
+  curl -sSf "https://v.firebog.net/hosts/Prigent-Crypto.txt" ;
+
   # Other Lists
   curl -sSf "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser" ;
+  curl -sSf "https://abp.oisd.nl" ;
 ) |
   cat |                # Combine all lists into one
   grep '^0\.0\.0\.0' | # Filter out any comments, etc. that aren't rules
