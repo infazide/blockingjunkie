@@ -1,6 +1,10 @@
 *** Updated May 15, 2022
 
-NEW automated version coming.
+NEW automated version coming soon. Test list in the backend directory
+
+________________________________________________________
+
+
 
 
 *** blockjunkie.txt currently contains over 1.6 Million domains
