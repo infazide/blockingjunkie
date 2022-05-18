@@ -1,0 +1,66 @@
+#!/bin/bash
+
+  wget https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts_without_controversies.txt 
+  wget https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt 
+  wget https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts 
+  wget https://v.firebog.net/hosts/static/w3kbl.txt 
+  wget https://raw.githubusercontent.com/blocklistproject/Lists/master/drugs.txt 
+  wget https://raw.githubusercontent.com/blocklistproject/Lists/master/gambling.txt 
+
+  # Advertising Lists
+  wget https://adaway.org/hosts.txt 
+  wget https://v.firebog.net/hosts/AdguardDNS.txt 
+  wget https://v.firebog.net/hosts/Admiral.txt 
+  wget https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt 
+  wget https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt 
+  wget https://v.firebog.net/hosts/Easylist.txt 
+  wget https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext 
+  wget https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts 
+  wget https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts 
+  wget https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt 
+  wget https://raw.githubusercontent.com/blocklistproject/Lists/master/basic.txt 
+  wget https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt 
+  wget https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt 
+
+  # Tracking & Telemetry Lists
+  wget https://v.firebog.net/hosts/Easyprivacy.txt 
+  wget https://v.firebog.net/hosts/Prigent-Ads.txt 
+  wget https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt 
+  wget https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts 
+  wget https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt 
+  wget https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt 
+  wget https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt 
+
+  # Malicious Lists
+  wget https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt 
+  wget https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt 
+  wget https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt 
+  wget https://mirror1.malwaredomains.com/files/justdomains 
+  wget https://v.firebog.net/hosts/Prigent-Crypto.txt 
+  wget https://v.firebog.net/hosts/Prigent-Malware.txt 
+  wget https://mirror.cedia.org.ec/malwaredomains/immortal_domains.txt 
+  wget https://www.malwaredomainlist.com/hostslist/hosts.txt 
+  wget https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt 
+  wget https://phishing.army/download/phishing_army_blocklist_extended.txt 
+  wget https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt 
+  wget https://v.firebog.net/hosts/Shalla-mal.txt 
+  wget https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt 
+  wget https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts 
+  wget https://urlhaus.abuse.ch/downloads/hostfile/ 
+  wget https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt 
+  wget https://raw.githubusercontent.com/blocklistproject/Lists/master/abuse.txt 
+  wget https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt 
+  wget https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt 
+  wget https://raw.githubusercontent.com/blocklistproject/Lists/master/scam.txt 
+  wget https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt 
+  wget https://raw.githubusercontent.com/blocklistproject/Lists/master/fraud.txt 
+
+  #Crypto
+  wget https://v.firebog.net/hosts/Prigent-Crypto.txt 
+
+  # Other Lists
+  wget https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser 
+  wget https://abp.oisd.nl 
+
+
+
