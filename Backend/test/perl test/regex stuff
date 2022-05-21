@@ -1,0 +1,48 @@
+regex stuff
+
+####################### Test string
+# Maintainer: Filters Heroes
+#
+# (EN) WARNING: Sites listed below can be harmful. Please, do not visit them if you don't know what you're doing!
+# (PL) UWAGA: Strony ponizej moga byc szkodliwe. Prosze, nie wchodz na nie, jesli nie wiesz co robisz!
+#@ >>>>>>>> https://raw.githubusercontent.com/FiltersHeroes/KAD/master/sections/podejrzane_inne_oszustwa.txt => hosts
+0.0.0.0 www.4ksport.pl
+0.0.0.0 www.4life.com
+127.0.0.1 analytics.163.com
+127.0.0.1 crash.163.com
+||networkcartography.com^
+||networkcartography.net^
+0.0.0.0js.my0115.ru
+0.0.0.0js.mys2016.info
+1010data.com #1010data - Tracker
+123count.com #SpidersWatchp - Tracker
+0.0.0.0 123greetings.com  # contains one link to
+www.facebook.com
+www.google.com
+facebook.com
+google.com
+123.com
+324.com
+
+######################Regex
+
+
+#This first
+^(?!\#).*$					^(?:0).*$|^(?:1).*$|^(?:\|).*$|^\w.*$          #matches lines needed except
+
+#Then these
+^\d\.\d\.\d\.\d(.*$) 					#prints everything after digit period digit period digit period digit period (0.0.0.0)
+^\d\.\d\.\d\.\d(.*)\ #>?				#prints lines that start with NXDOMAIN and have a comment at the end
+^\d\d\d\.\d\.\d\.\d(.*$)				#prints everything after three digits period one digit period one digit period one digit (127.0.0.1)
+^(?:\|)(?:\|)(.*)\D$					#matches anthing between two pipes and a non-digit end character (PROBLEM WITH COMMENTS)
+^(?!0\.0\.0\.0|127\.0\.0\.1)\w.*		#matches domains that dont start with a with home or NXDOMAIN
+#run last
+^(?!\d\.\d\.\d\.\d|\d\d\d\.\d\.\d\.\d)(\w.*)\ #>?	#matches lines with home or NXDOMAIN that have a comment at the end of the line
+
+
+
+(^\d\.\d\.\d\.\d(.*$))|(^\d\d\d\.\d\.\d\.\d(.*$))|(^(?:\|)(?:\|)(.*)\D$) combined
+
+
+Work in progress
+/^(?!\#)|\d\.\d\.\d\.\d(.*)|\d\d\d\.\d\.\d\.\d(.*)|^\|\|(.*)\D$/gm

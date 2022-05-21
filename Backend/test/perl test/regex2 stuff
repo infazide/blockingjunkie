@@ -1,0 +1,38 @@
+#prints everything after digit period digit period digit period digit period (0.0.0.0)
+#Group: g1
+^\d\.\d\.\d\.\d(?<g1>.*$)
+#prints lines that start with NXDOMAIN and have a comment at the end
+#Group: g2
+^\d\.\d\.\d\.\d(?<g2>.*)\ #>?
+#prints everything after three digits period one digit period one digit period one digit (127.0.0.1)
+#Group: g3
+^\d\d\d\.\d\.\d\.\d(?<g3>.*$)
+#matches anthing between two pipes and a non-digit end character
+#Group: g4
+^(?:\|)(?:\|)(?<g4>.*)\D$
+#matches domains that dont start with a with home or NXDOMAIN and those that are the same with a comment at the end
+#Group: g5 and g6
+(^(?!0\.0\.0\.0|127\.0\.0\.1)(?<g5>\w.*)(\ #>?))|(^(?!0\.0\.0\.0|127\.0\.0\.1)(?<g6>\w.*))
+#matches lines with home or NXDOMAIN that have a comment at the end of the line
+#Group 7 
+^(?:\d\.\d\.\d\.\d)|(?:\d\d\d\.\d\.\d\.\d)|(?<g7>\w.*)\ #>?
+
+
+
+playing arond with:
+(^(?!0\.0\.0\.0|127\.0\.0\.1)(?<g5>\w.*)(\ #>?))|(^(?!0\.0\.0\.0|127\.0\.0\.1)(?<g6>\w.*))|^(?:\d\.\d\.\d\.\d)|(?:\d\d\d\.\d\.\d\.\d)|(?<g7>\w.*)\ #>?
+
+^((0\.0\.0\.0)|(127\.0\.0\.1)|(\|\|))(?<g1>.*)|\K^(?<g2>\w.*)(?> #)|\K^(?<g3>\w.*)
+^(([0-127]\.0\.0\.[0-1])|(\|\|))(?<g1>.*)|\K^(?<g2>\w.*)(?> #)|\K^(?<g3>\w.*) ######is slower than above
+^((0\.0\.0\.0)|(127\.0\.0\.1)|(\|\|))|(( \w.*\K(?>#))|(\w.*\K(?>\^))) ######30k
+^((0\.0\.0\.0)|(127\.0\.0\.1)|(\|\|))(?<g1>.*)((?>#)|(?>\^))|\K^(?<g2>\w.*)(?> #)|\K^(?<g3>\w.*)      #####3.7K steps no comments or carrots need to remove home and NX
+^((0\.0\.0\.0)|(127\.0\.0\.1)|(\|\|))(?<g1>.*)((?>#)|(?>\^))|\K^(?<g2>\w.*)(?> #)|\K^(0\.0\.0\.0)(?<g3>\w.*)|\K^(0\.0\.0\.0)(?<g4> \w.*)|\K^(127\.0\.0\.1 )(?<g5>\w.*)|\K
+^((0\.0\.0\.0)|(127\.0\.0\.1)|(\|\|))(?<g1>.*)((?>#)|(?>\^))|\K^(?<g2>\w.*)(?> #)|\K^(0\.0\.0\.0)(?<g3>\w.*)|\K^(0\.0\.0\.0)(?<g4> \w.*)|\K^(127\.0\.0\.1 )(?<g5>\w.*)|\K^(?<g6>www.*)
+
+
+((?>0\.0\.0\.0)|(?>127\.0\.0\.1)|(?>#)|(?>\|\|))|^(?<g1>\w.*)
+
+((?<nx>0\.0\.0\.0)|(?<home>127\.0\.0\.1)|(?<pipes>\|\|)|(?<comm>#.*)|(?<car>\^))
+((?<nx>0\.0\.0\.0)|(?<home>127\.0\.0\.1)|(?<pipes>\|\|)|(?<comm>#.*)|(?<car>\^)|(?<white>\h))
+
+perl -ne "print s/((0\.0\.0\.0)|(127\.0\.0\.1)|(\|\|)|(#.*)|(\^)|(\h))/m/gi;" a.txt

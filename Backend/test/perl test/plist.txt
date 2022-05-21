@@ -1,0 +1,19 @@
+# (EN) WARNING: Sites listed below can be harmful. Please, do not visit them if you don't know what you're doing!
+# (PL) UWAGA: Strony ponizej moga byc szkodliwe. Prosze, nie wchodz na nie, jesli nie wiesz co robisz!
+# Podejrzane i/lub strony polaczone z innymi oszustwami
+#@ >>>>>>>> https://raw.githubusercontent.com/FiltersHeroes/KAD/master/sections/podejrzane_inne_oszustwa.txt => hosts
+0.0.0.0 2easy.pl
+0.0.0.0 3posilki.pl
+0.0.0.0 3vulkanvegas.com
+0.0.0.0 www.4ksport.pl
+0.0.0.0 www.4life.com
+0.0.0.0 www.4madesigngallerie.com.pl
+127.0.0.1 analytics.163.com
+127.0.0.1 crash.163.com
+127.0.0.1 crashlytics.163.com
+||networkcartography.com^
+||networkcartography.net^
+||networkcartography.org^
+0.0.0.0js.my0115.ru
+0.0.0.0js.mys2016.info
+0.0.0.0js.pascal1.science

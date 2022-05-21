@@ -70,8 +70,8 @@ IFS=$'\n\t'
 ) |
   cat |                # Combine all lists into one
   grep '^0\.0\.0\.0' | # Filter out any comments, etc. that aren't rules
-  tr -d '\r' |         # Normalize line endings by removing Windows carriage returns
-  sort -u |         # Remove any duplicates
+  tr -d '\r' |     # Normalize line endings by removing Windows carriage returns
+  sort -u |        # Remove any duplicates
   awk '{print "0.0.0.0 "$2""}' >> blocklist.txt
 
 
